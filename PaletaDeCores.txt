@@ -1,0 +1,5 @@
+Cor 1 = 000000(Preto/Opacidade = 100%)
+Cor 2 = FFFFFF(Branco/Opacidade = 100%)
+Cor 3 = CDEDFF(AzulClaro/Opacidade = 100%)
+Cor 4 = E9E8E8(Cinza/Opacidade = 100%)
+Cor 5 = 22AA33(VerdeClaro/Opacidade = 57,25%)
