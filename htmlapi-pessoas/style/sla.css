@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.botaocadastro {
+    padding: 10px 20px;
+    background-color:rgb(34,170,51);
+    opacity: 57.25%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    font-size: large;
+}
+
+.botaocadastro:hover {
+    background-color: green;
+}
+
+.tudo{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.LadoEsquerdo {
+    width: 30%;
+    height: 100vh;
+    background-color:rgb(34,170,51);
+    opacity: 57.25%;
+    float: left; 
+    color: white;
+}
+
+
+.ladoDireito {
+    width: 70%;
+    height: 100vh;
+    float: left;
+    background-color: rgba(205, 237, 255, 1); 
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    border-radius: 30px;
+    margin: 7px;
+    padding: 15px;
+    background-color: rgba(217, 217, 217, 1);
+    border: none;
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+input::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+
+.bemvindo{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 35px;
+    margin-left: 24px;
+}
+
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    
+}
+
+.hr1{
+    width: 80%;
+    border: 1px white solid;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
