@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TesteQualquerCoisa</title>
     <link rel="stylesheet" href="style/sla.css">
-    
-    
+
+
 </head>
+
 <body>
 
     <div class="Tudo">
@@ -23,23 +25,24 @@
                 <hr>
             </div>
             <div class="informacoes">
-                <input class="input" type="text" id="Nome" placeholder="Nome:">
-                <input class="input" type="text" id="CPF" placeholder="CPF:">
-                <input class="input" type="date" id="Data-Nascimento" placeholder="Data-Nascimento:">
-                <input class="input" type="text" id="Telefone" placeholder="Telefone:">
-                <input class="input" type="text" id="Endereço" placeholder="Endereço:">
-                <input class="input" type="text" id="Peso" placeholder="Peso:">
-                <input class="input" type="text" id="Altura" placeholder="Altura:">
+                <input class="input" name="nome-pessoa" type="text" id="Nome" placeholder="Nome:">
+                <input class="input" name="cpf" type="text" id="CPF" placeholder="CPF:">
+                <input class="input" name="data-de-nascimento" type="date" id="Data-Nascimento" placeholder="Data-Nascimento:">
+                <input class="input" name="telefone" type="text" id="Telefone" placeholder="Telefone:">
+                <input class="input" name="endereco" type="text" id="Endereço" placeholder="Endereço:">
+                <input class="input" name="peso" type="text" id="Peso" placeholder="Peso:">
+                <input class="input" name="altura" type="text" id="Altura" placeholder="Altura:">
             </div>
 
             <div class="botao">
-                <button class="botaocadastro" onclick="ResetarPagina()">Cadastre-se</button>
+                <button class="botaocadastro" onclick="cadastrar()">Cadastre-se</button>
             </div>
 
         </div>
 
     </div>
-        
-    <script src="js/main.js"></script>
+
+    <script src="js/requests.js"></script>
 </body>
+
 </html>
